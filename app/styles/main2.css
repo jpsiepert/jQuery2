@@ -1,0 +1,36 @@
+body{
+	background-image:url("http://rockstarfinance.com/wp-content/uploads/2013/09/do-it-post-it-note-collage.jpg");
+}
+
+.panel {
+    display: inline-block;
+    width: 33%;
+}
+
+.navbar.navbar-inverse.color{
+	background-color: #0E59F7;
+	color: #FFF;
+	text-align: center;
+	font-size: 35px;
+
+}
+
+.list-group-item.active.maroon{
+	background-color: #C80039;
+
+}
+
+.list-group-item.active.blue{
+	background-color: #94008D;
+}
+
+.list-group-item.active.yellow{
+	background-color: #56C500;
+}
+
+.fa.fa-plus {
+	font-size: 20px;
+	text-align: right;
+	color: #0F4A09;
+	
+}

@@ -9,41 +9,42 @@
 <body>
 
 <nav class="navbar navbar-inverse color" role="navigation">"Whistle While You Work"</nav>
-<div class="list-group">
-  <a href="#" class="list-group-item active maroon">
-     <form id="newTaskForm">
-  <label class="panel">New Item</label>
-    <input id="newItemInput" placeholder="new task">
-    <button id="saveNewItem">Save</button>
-    <button id="cancel">Cancel</button>
- </form>
-<div>
-<div class='new-item-header'>
-			<h3 class="to-do-align">New To-Do</h3>
-      <button href="#" class="pencil" id="newListItem" style=""><i class="fa fa-plus"></i></button>
+
+<div class="container">
     
-</div>
-<div id="newList">
+  <div class="list-group">
+      <div class="list-group-item maroon">
+        <div class='new-item-header'>
+         <h3 id="hideit">New To-Do  
+          <button href="#" class="pull-right pencil" id="newListItem"><i class="fa fa-plus"></i></button>
+         </h3>
+           <form id="newTaskForm">
+            <input id="newItemInput" placeholder="new task">
+            <button id="saveNewItem">Save</button>
+            <button id="cancel">Cancel</button>
+          </form>
+          <ul id="newList"></ul>
+        </div>
+      </div>
+  </div>
 
-</div>
-</div>
-  </a>
-</div>
-
-<div class="list-group">
-  <a href="#" class="list-group-item active blue">	
+  <div class="list-group">
+    <div class="list-group-item purple">	
      <h3>In Progress</h3>
-     <ul class="list-group" id="currentList"></ul>
-  </a>
+     <ul id="currentList"></ul>
+   </div>
+  </div>
+
+  <div class="list-group">
+    <div class="list-group-item green">
+      <h3>Archived</h3>
+      <ul id="archivedList"></ul>
+    </div>
+  </div>
+
 </div>
 
-<div class="list-group">
-  <a href="#" class="list-group-item active yellow">
-     <h3>Archived</h3>
-     <ul class="list-group" id="archivedList"></ul>
-     </a>
-	</div>
-  
+
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="app/scripts/main.js"></script>
 </body>

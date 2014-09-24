@@ -4850,12 +4850,12 @@ a.list-group-item {
 a.list-group-item .list-group-item-heading {
   color: #333;
 }
-a.list-group-item:hover,
+/*a.list-group-item:hover,
 a.list-group-item:focus {
   color: #555;
   text-decoration: none;
   background-color: #f5f5f5;
-}
+}*/
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
 .list-group-item.disabled:focus {
